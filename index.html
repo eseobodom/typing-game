@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Falling Letters Typing Game</title>
+    <link rel="stylesheet" href="game.css">
+  </head>
+<body>
+    <button id="startButton">Start Game</button>
+    <canvas id="gameCanvas"></canvas>
+    <div id="onScreenKeyboard"></div>
+    <div id="stats">
+        <p>Time: <span id="time">0</span>s</p>
+        <p>Speed: <span id="speed">0</span> letters/min</p>
+        <p>Accuracy: <span id="accuracy">100</span>%</p>
+    </div>
+    <div id="gameOver">
+        <h1>Game Over</h1>
+        <p>Final Time: <span id="finalTime">0</span>s</p>
+        <p>Final Speed: <span id="finalSpeed">0</span> letters/min</p>
+        <p>Final Accuracy: <span id="finalAccuracy">100</span>%</p>
+        <button onclick="startGame()">Restart</button>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
