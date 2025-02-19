@@ -18,7 +18,7 @@ const canvas = document.getElementById('gameCanvas');
         let gameInterval;
         let letterInterval;
         let gameActive = false;
-        let gameOverZoneHeight = 160;
+        let gameOverZoneHeight = 200;
 
         function resizeCanvas() {
             canvas.width = window.innerWidth;
