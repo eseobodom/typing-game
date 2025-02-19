@@ -22,7 +22,7 @@ body {
         }
         #onScreenKeyboard {
             display: none;
-            margin-top: -10em;
+            margin-top: -12.5em;
         }
         .key {
             display: inline-block;
